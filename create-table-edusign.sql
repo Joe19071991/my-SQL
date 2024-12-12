@@ -73,6 +73,8 @@ INSERT INTO users (firstname, name, email) VALUES
 ('Bella', 'Guerin', 'bella@test.fr'),
 ('Barbara', 'Chase', 'barbara@test.fr');
 
+SELECT * FROM users
+
 
 
 
