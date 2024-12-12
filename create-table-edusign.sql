@@ -78,6 +78,11 @@ SELECT * FROM users
 SELECT * FROM users
 WHERE firstname = 'Ada';
 
+SELECT * FROM users
+WHERE firstname LIKE 'B%';
+
+
+
 
 
 
