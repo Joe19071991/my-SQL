@@ -67,6 +67,13 @@ VALUES
 (10, '2024-05-09 09:30:00'),
 (11, '2024-05-09 09:30:00');
 
-SELECT * FROM users
-WHERE firstname = 'Julie';
+INSERT INTO users (firstname, name, email) VALUES 
+('Ada', 'Lovelace', 'ada@test.fr'),
+('Beatrice', 'Worsley', 'bea@test.fr'),
+('Bella', 'Guerin', 'bella@test.fr'),
+('Barbara', 'Chase', 'barbara@test.fr');
+
+
+
+
 
