@@ -23,5 +23,27 @@ VALUES
 ('Marie', 'Dupont', 'marie.dupont@adatechschool.com', '2024-05-09 09:30:00'),
 ('Clara', 'Lefevre', 'clara.lefevre@adatechschool.com', '2024-05-09 09:30:00');
 
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    firstname TEXT NOT NULL,
+    name TEXT NOT NULL,
+    email TEXT NOT NULL
+);
+
+INSERT INTO users (firstname, name, email) 
+VALUES
+('Marie', 'Dupont', 'marie.dupont@adatechschool.com'),
+('Jean', 'Martin', 'jean.martin@adatechschool.com'),
+('Clara', 'Lefevre', 'clara.lefevre@adatechschool.com'),
+('Sophie', 'Bernard', 'sophie.bernard@adatechschool.com'),
+('Thomas', 'Perrot', 'thomas.perrot@adatechschool.com'),
+('Camille', 'Lambert', 'camille.lambert@adatechschool.com'),
+('Julie', 'Morel', 'julie.morel@adatechschool.com'),
+('Antoine', 'Gauthier', 'antoine.gauthier@adatechschool.com'),
+('Emma', 'Simon', 'emma.simon@adatechschool.com'),
+('Marie', 'Dupont', 'marie.dupont@adatechschool.com'),
+('Clara', 'Lefevre', 'clara.lefevre@adatechschool.com');
+
+
 
 
