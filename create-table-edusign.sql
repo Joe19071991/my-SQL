@@ -87,7 +87,7 @@ SELECT COUNT (*) FROM users;
 SELECT COUNT (*) FROM users
 WHERE firstname LIKE 'B%';
 
-
+SELECT firstname FROM users;
 
 
 
