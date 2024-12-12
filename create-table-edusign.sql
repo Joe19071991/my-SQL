@@ -75,6 +75,9 @@ INSERT INTO users (firstname, name, email) VALUES
 
 SELECT * FROM users
 
+SELECT * FROM users
+WHERE firstname = 'Ada';
+
 
 
 
