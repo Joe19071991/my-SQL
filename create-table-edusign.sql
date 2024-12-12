@@ -45,5 +45,28 @@ VALUES
 ('Clara', 'Lefevre', 'clara.lefevre@adatechschool.com');
 
 
+CREATE TABLE edusign (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    users_id INTEGER NOT NULL,
+    created_at DATETIME NOT NULL,
+    FOREIGN KEY (users_id) REFERENCES users(id)
 
+);
+
+INSERT INTO edusign (users_id, created_at)
+VALUES
+(1, '2024-05-08 09:30:00'),
+(2, '2024-05-08 09:30:00'),
+(3, '2024-05-08 09:30:00'),
+(4, '2024-05-08 09:30:00'),
+(5, '2024-05-08 09:30:00'),
+(6, '2024-05-08 09:30:00'),
+(7, '2024-05-08 09:30:00'),
+(8, '2024-05-08 09:30:00'),
+(9, '2024-05-08 09:30:00'),
+(10, '2024-05-09 09:30:00'),
+(11, '2024-05-09 09:30:00');
+
+SELECT * FROM users
+WHERE firstname = 'Julie';
 
