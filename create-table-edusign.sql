@@ -81,6 +81,8 @@ WHERE firstname = 'Ada';
 SELECT * FROM users
 WHERE firstname LIKE 'B%';
 
+SELECT COUNT (*) FROM users;
+
 
 
 
